@@ -1,0 +1,41 @@
+.photo {
+    height: auto;
+    width: auto;
+    max-width: 600px;
+    max-height: 600px;
+    display: inline-block;
+}
+@media screen and (max-width: 991px){
+    .photo {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    }
+}
+
+.welcome {
+    font-size: 24px;
+    font-family: 'Titillium Web';
+}
+@media screen and (max-width: 991px){
+    .welcome {
+        font-size: 18px;
+        font-family: 'Titillium Web';
+        color: blue;
+        display: block;
+    }
+}
+.para1 {
+    font-size: medium;
+    font-family: 'Raleway';
+}
+@media screen and (max-width: 991px){
+    .para1 {
+        font-size: 12px;
+        font-family: 'Raleway';
+        color: blue;
+        display: block;
+    }
+}

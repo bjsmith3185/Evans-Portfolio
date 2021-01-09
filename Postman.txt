@@ -1,0 +1,18 @@
+
+Post route: http://localhost:3001/api/email
+
+body:
+{
+    "firstName": "brian",
+    "lastName": "smith",
+    "email":"email.com",
+    "occupation":"typer",
+    "subject": "email",
+    "message": "messages"
+}
+
+
+
+
+
+

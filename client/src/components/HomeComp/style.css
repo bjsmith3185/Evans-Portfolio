@@ -1,0 +1,13 @@
+#icon {
+    height: 250px;
+    width: 250px;
+    /* align-content: center; */
+    display:inline-table;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

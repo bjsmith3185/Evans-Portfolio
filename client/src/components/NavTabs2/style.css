@@ -1,0 +1,15 @@
+#navStyle{
+    color: blue !important;
+    background-color: .808080 !important;
+    border-top: 5px groove blue !important;
+    border-right: 5px groove blue !important;
+    border-left: 5px groove blue !important;
+    border-bottom: 5px groove rgba(0, 0, 0, 0.63);
+}
+
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}

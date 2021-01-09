@@ -1,0 +1,43 @@
+module.exports = {
+
+transport: {
+    host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
+    port: 587,
+    auth: {
+        user: creds.USER,
+        pass: creds.PASS
+    }
+},
+
+transporter: nodemailer.createTransport(transport),
+
+verify: transporter.verify((error, success) => {
+    if (error) {
+        console.log(error);
+    } else {
+        console.log('Server is ready to take messages');
+    }
+}),
+
+
+
+
+
+var transport = {
+    host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
+    port: 587,
+    auth: {
+        user: creds.USER,
+        pass: creds.PASS
+    }
+}
+
+var transporter = nodemailer.createTransport(transport)
+
+transporter.verify((error, success) => {
+    if (error) {
+        console.log(error);
+    } else {
+        console.log('Server is ready to take messages');
+    }
+});
